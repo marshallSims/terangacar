@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*------------------------------------------------------------------------------*/
-/*This is main CSS file that contains custom style rules used in this template*/
-/*------------------------------------------------------------------------------*/
-/* Template Name: Wheel */
-/* Version: 1.0.0 Initial Release */
-/* Build Date: 08-01-2016 */
-/* Author: Jewel Theme */
-/* Website: https://jeweltheme.com */
-/* Copyright: (C) 2016 */
-/*-------------------------------------------------------------------------------*/
-/*------------------------------------------------------------------
+
 
 [Table of contents]
 0. Preload
@@ -49,7 +39,6 @@ a:hover {
 body,
 html {
   overflow-x: hidden; }
-
 /*--------------------------------------------------------------------------------------*/
 /* Preload */
 
@@ -238,7 +227,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   left: 0;
-  right: 0; 
+  right: 0;
   top: 40px;
   margin: auto;
   z-index: 999;
@@ -792,7 +781,8 @@ h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(24, 46, 110, 0.8); }
+    /* background-color: rgba(24, 46, 110, 0.8); */
+    }
   .wheel-start .wheel-header {
     position: relative;
     z-index: 2;
@@ -1934,8 +1924,7 @@ h6 {
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0;
-    background-color: rgba(24, 46, 110, 0.7); }
+    top: 0;}
 
 .wheel-start3-body {
   position: relative;
